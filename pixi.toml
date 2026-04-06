@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Ashutosh-Dwibedi <ashutoshdwibedi555@gmail.com>"]
+channels = ["conda-forge"]
+name = "wine-quality"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.14.*"
+numpy = ">=2.4.3,<3"
+pandas = ">=3.0.1,<4"
+scikit-learn = ">=1.8.0,<2"
+matplotlib = ">=3.10.8,<4"
+seaborn = ">=0.13.2,<0.14"
+ipykernel = ">=6.0.0"
+matplotlib-inline = ">=0.2.1,<0.3"
+traitlets = ">=5.0.0"
+ipython = ">=8.0.0"
